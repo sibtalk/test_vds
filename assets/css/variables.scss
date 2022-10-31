@@ -1,0 +1,22 @@
+// $btn-border-radius: 0px;
+
+// If you need to extend Vuetify SASS lists
+// $material-light: ( cards: blue );
+
+// $theme : ( success: green );
+.v-application {
+  display: contents;
+  position: relative;
+}
+.v-application--wrap {
+  min-height: auto;
+  display: contents;
+}
+.list-link {
+  width: fit-content;
+}
+.theme--light.v-btn {
+  color: #fff;
+}
+
+@import 'vuetify/src/styles/styles.sass';
